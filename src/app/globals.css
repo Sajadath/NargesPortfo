@@ -19,3 +19,7 @@ body {
   --color-signature: var(--signature);
   --color-lightGray: var(--lightGray);
 }
+
+.noisyBackground {
+  background: url("/public/main/mainBackground.png");
+}

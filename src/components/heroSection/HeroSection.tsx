@@ -2,8 +2,8 @@ import DvhBoxContainer from "../ui/DvhBoxContainer";
 
 function HeroSection() {
   return (
-    <DvhBoxContainer>
-      <div className="w-full flex items-center h-full text-lightGray  ">
+    <DvhBoxContainer withBackground>
+      <div className="w-full flex items-center h-full text-lightGray relative ">
         <div>
           <h3>Updated</h3>
           <div className="flex ">
